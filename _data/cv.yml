@@ -56,7 +56,7 @@ cv:
           composite damage (CDM, XFEM), RVE micromechanics, digital twin
           architecture, multiscale modeling
 
-    Selected Projects:
+    Projects:
       - name: Digital Twin for Solid-State Additive Manufacturing
         summary: >
           Residual stress and distortion prediction workflow for
@@ -152,6 +152,37 @@ cv:
           and analyzed stress concentrations from notch geometries
           (V-cut, U-cut) under representative aero loading conditions.
 
+    Honors and Awards:
+      - title: Best Paper Award
+        date: 2025-05
+        awarder: Vertical Flight Society — 81st Annual Forum & Technology Display
+        summary: >
+          For "Multi-Physics Modeling and Planning Tool for Tailoring of
+          Quenching Process of Representative Airframe Structural
+          Components" (Lua, Li, Shrestha, Karuppiah, Timko, Lund, 2025).
+
+      - title: Best Paper Award
+        date: 2024-05
+        awarder: Vertical Flight Society — 80th Annual Forum and Technology Display
+        summary: >
+          For "Multi-Physics Modeling and Optimization Towards a Digital
+          Twin of Quenching Processes of Large-Scale Metallic Structures"
+          (Lua, Yan, Shrestha, Piccoli, Karuppiah, Phan, 2024).
+
+      - title: Special Research Fellowship
+        date: 2016-04
+        awarder: Wichita State University — Graduate School
+        summary: >
+          Awarded for academic year 2015–2016 to represent the university
+          at an international technical conference.
+
+      - title: 3rd Place — Technical Paper Presentation
+        date: 2015-04
+        awarder: AIAA Region V Paper Conference
+        summary: >
+          For "Cure Dependent Transverse Thermal Expansions for
+          Continuous Fiber Reinforced Composites."
+
     Education:
       - institution: Wichita State University
         location: Wichita, KS, USA
@@ -159,11 +190,17 @@ cv:
         area: Aerospace Engineering
         studyType: M.S.
         start_date: 2013
-        end_date: 2015
-        summary: >
-          Thesis: Finite-element-based micromechanics for predicting
-          stress relaxation behavior of woven composites under
-          high-temperature aerospace conditions.
+        end_date: 2016
+        highlights:
+          - >
+            **Master's Thesis:** *Predicting the Influence of Weave
+            Architecture on the Stress Relaxation Behavior of Woven
+            Composites Using Finite Element-Based Micromechanics.*
+          - >
+            Multiscale (micro–macro) modeling of the viscoelastic response
+            of woven composites using MSC Marc and HyperMesh, with focus
+            on stress relaxation and creep for high-temperature aerospace
+            applications.
 
       - institution: Anna University, Chennai
         location: Chennai, India

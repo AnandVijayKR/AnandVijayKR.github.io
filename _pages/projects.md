@@ -2,9 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
-display_categories: [work, fun]
+description: Research and engineering projects in computational mechanics, digital twin development, and AI/ML-enabled simulation tools.
+nav: true
+nav_order: 2
+display_categories: [research]
 horizontal: false
 ---
 

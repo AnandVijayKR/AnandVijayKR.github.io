@@ -1,11 +1,6 @@
 # -----------------------------------------------------------------------------
 # cv.yml — Anand Vijay Karuppiah
 # Rendered by the rendercv format on /cv/ via _pages/cv.md
-#
-# TODO before publishing:
-#   - Confirm GEM start date (currently 2017 estimate)
-#   - Confirm MS vs PhD at Wichita State (currently MS)
-#   - Add undergraduate degree if desired
 # -----------------------------------------------------------------------------
 
 cv:
@@ -15,9 +10,12 @@ cv:
   location: Princeton, NJ, USA
   image: ""
   summary: >
-    Research Engineer focused on multiphysics simulation, residual stress and
-    distortion modeling, and digital twin development for aerospace and
-    defense applications.
+    Research Engineer with over a decade of experience developing
+    physics-based and data-driven simulation solutions for aerospace and
+    defense programs. Focus areas span coupled thermomechanical FEA,
+    residual stress and distortion modeling, composite micromechanics, and
+    digital twin development, in collaboration with NIAR, NASA, and other
+    sponsors.
 
   social_networks:
     - network: GitHub
@@ -29,49 +27,100 @@ cv:
 
   sections:
 
-    Education:
-      - institution: Wichita State University
-        location: Wichita, KS, USA
-        url: https://www.wichita.edu/
-        area: Mechanical Engineering
-        studyType: M.S.
-        start_date: 2014
-        end_date: 2016
-        summary: >
-          Thesis: Finite-element-based micromechanics for predicting stress
-          relaxation behavior of woven composites.
-
     Experience:
       - company: Global Engineering and Materials, Inc.
-        position: Research Engineer
+        position: Research Engineer — CAE Expert (R&D)
         location: Princeton, NJ, USA
         url: https://gem-innovation.com/
-        start_date: 2017
+        start_date: 2023-01
         end_date: present
         summary: >
-          Multiphysics simulation, digital twin frameworks, and AI/ML-enabled
-          engineering tools for aerospace and defense sponsors. Focus areas
-          include coupled thermomechanical FEA, residual stress and distortion
-          modeling, defect-aware composite analysis, and simulation
-          automation.
+          Lead digital twin tool development with NIAR for end-to-end
+          design-to-production execution. Build ML-powered software for
+          polymer property prediction integrating transformer-based
+          language models with physics-based simulation. Develop digital
+          material generation toolkits for composites — predicting
+          ply-level elastic, strength, and thermal properties using RVE
+          micromechanics with explicit defect effects.
+
+      - company: Global Engineering and Materials, Inc.
+        position: Mechanical Engineer (R&D)
+        location: Princeton, NJ, USA
+        start_date: 2020-01
+        end_date: 2022-12
+        summary: >
+          Delivered defect-aware composite simulations from manufacturing
+          distortion through in-service failure — integrating
+          global-to-local aircraft wing analysis, XFEM-based fatigue crack
+          growth, CDM progressive damage, and CFD-driven thermal effects.
+
+      - company: Global Engineering and Materials, Inc.
+        position: Associate Material Engineer (R&D)
+        location: Princeton, NJ, USA
+        start_date: 2017-09
+        end_date: 2019-12
+        summary: >
+          Characterized fabrication- and service-induced defects in
+          composite materials. Built defect-informed geometry models and
+          physics-based material models, and developed structural-level
+          FE frameworks that explicitly incorporate process-induced
+          defects for realistic performance prediction.
 
       - company: Wichita State University
         position: Graduate Research Assistant
         location: Wichita, KS, USA
-        start_date: 2014
-        end_date: 2016
+        start_date: 2014-01
+        end_date: 2017-09
         summary: >
-          Composite micromechanics and stress relaxation modeling of woven
-          fabric composites.
+          Stress/structural analysis and material characterization of
+          composite honeycomb cores: nonlinear FEA (MSC Marc, HyperMesh),
+          micro–macro multiscale modeling, custom FORTRAN subroutines for
+          anisotropic hyperelastic creep, and full-spectrum mechanical and
+          thermal testing of composite panels.
+
+      - company: CEMILAC (DRDO)
+        position: Engineering Intern — Design and Stress Analysis
+        location: Bangalore, India
+        start_date: 2011-12
+        end_date: 2012-04
+        summary: >
+          Performed FEA on low-pressure turbine blades using ANSYS;
+          computed margin of safety and analyzed stress concentrations
+          under representative loading conditions.
+
+    Education:
+      - institution: Wichita State University
+        location: Wichita, KS, USA
+        url: https://www.wichita.edu/
+        area: Aerospace Engineering
+        studyType: M.S.
+        start_date: 2013
+        end_date: 2015
+        summary: >
+          Thesis: Finite-element-based micromechanics for predicting
+          stress relaxation behavior of woven composites under
+          high-temperature aerospace conditions.
+
+      - institution: Anna University, Chennai
+        location: Chennai, India
+        url: https://www.annauniv.edu/
+        area: Aerospace Engineering
+        studyType: B.E.
+        start_date: 2008
+        end_date: 2012
 
     Skills:
       - name: Simulation
-        keywords: Abaqus, MSC NASTRAN, MSC Marc, STAR-CCM+, HyperMesh, HPC
+        keywords: Abaqus, MSC NASTRAN/PATRAN, MSC Marc, ANSYS, STAR-CCM+, HyperMesh, HPC
 
       - name: Programming
         keywords: Python, Fortran, C++, MATLAB
 
+      - name: CAD
+        keywords: CATIA V5, SolidWorks
+
       - name: Methods
         keywords: >
-          Thermomechanical FEA, residual stress modeling, RVE micromechanics,
-          composite damage (CDM, XFEM), digital twin, physics-informed ML
+          Thermomechanical FEA, residual stress and distortion modeling,
+          RVE micromechanics, composite damage (CDM, XFEM), digital twin,
+          physics-informed ML

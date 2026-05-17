@@ -102,6 +102,8 @@ jobs:
       - name: Show build log on failure
         if: failure()
         run: |
+          echo "=== LAST 200 LINES OF JEKYLL BUILD LOG ===" >> $GITHUB_STEP_SUMMARY
+          tail -200 /tmp/jekyll_build.log >> $GITHUB_STEP_SUMMARY 2>&1 || echo "(log not found)" >> $GITHUB_STEP_SUMMARY
           echo "=== LAST 200 LINES OF JEKYLL BUILD LOG ==="
           tail -200 /tmp/jekyll_build.log || echo "(log not found)"
       - name: Upload build log

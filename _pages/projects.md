@@ -9,6 +9,7 @@ nav_order: 2
 
 > All work listed below was conducted under industry research programs. Implementations remain proprietary; descriptions reflect generalized research contributions.
 
+<div class="cv">
 <div class="card mt-3 p-3">
 <ul class="card-text font-weight-light list-group list-group-flush">
 
@@ -109,4 +110,5 @@ nav_order: 2
   </li>
 
 </ul>
+</div>
 </div>

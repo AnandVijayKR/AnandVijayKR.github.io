@@ -7,7 +7,7 @@ subtitle: Research Engineer · <a href='https://gem-innovation.com'>Global Engin
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Global Engineering and Materials, Inc.</p>
     <p>Princeton, NJ</p>

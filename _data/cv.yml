@@ -57,34 +57,6 @@ cv:
           composite damage (CDM, XFEM), RVE micromechanics, digital twin
           architecture, multiscale modeling
 
-    Projects:
-      - name: Digital Twin for Solid-State Additive Manufacturing
-        summary: >
-          Residual stress and distortion prediction workflow for
-          multi-layer AFSD deposition, validated against experimental
-          thermocouple measurements. Sequential thermal–mechanical
-          coupling architecture with Python-based automation and
-          HPC job management.
-
-      - name: SMARTCLAVE — Autoclave Digital Twin
-        summary: >
-          High-fidelity digital twin predicting process-induced local
-          defects and distortion of autoclave-cured composite parts
-          (AIAA SciTech 2026; NIAR / NASA program).
-
-      - name: ML Composite Property Surrogate
-        summary: >
-          Transformer-based language models combined with physics-based
-          simulation and RVE micromechanics for polymer and composite
-          property prediction and inverse design.
-
-      - name: End-to-End FEA Automation Pipeline
-        summary: >
-          Production-grade simulation automation managing all analysis
-          modes from CAD geometry through HPC execution and structured
-          post-processing — solver-agnostic, parameterized, and
-          reproducible.
-
     Experience:
       - company: Global Engineering and Materials, Inc.
         position: Research Engineer — CAE Expert (R&D)

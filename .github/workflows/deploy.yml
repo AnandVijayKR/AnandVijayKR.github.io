@@ -93,7 +93,16 @@ jobs:
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
-          bundle exec jekyll build --trace 2>&1 || (echo "=== JEKYLL BUILD FAILED ===" && exit 1)
+          bundle exec jekyll build --trace 2>&1 | tee /tmp/jekyll_build.log
+      - name: Save debug log on failure
+        if: failure()
+        run: |
+          cp /tmp/jekyll_build.log jekyll_debug_latest.log
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add jekyll_debug_latest.log
+          git commit -m "ci: save Jekyll debug log"
+          git push
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

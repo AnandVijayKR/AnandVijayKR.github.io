@@ -1,21 +1,24 @@
 # -----------------------------------------------------------------------------
 # cv.yml — Anand Vijay Karuppiah
 # Rendered by the rendercv format on /cv/ via _pages/cv.md
+# Section order: Skills > Selected Projects > Experience > Education
+# Skills bucketed for cross-industry scan (aerospace + software/ML recruiters).
 # -----------------------------------------------------------------------------
 
 cv:
   name: Anand Vijay Karuppiah
-  label: Research Engineer · Computational Mechanics
+  label: Research Engineer · Computational Mechanics · Engineering AI/ML
   email: avkaruppiah@gem-innovation.com
   location: Princeton, NJ, USA
   image: ""
   summary: >
     Research Engineer with over a decade of experience developing
-    physics-based and data-driven simulation solutions for aerospace and
-    defense programs. Focus areas span coupled thermomechanical FEA,
-    residual stress and distortion modeling, composite micromechanics, and
-    digital twin development, in collaboration with NIAR, NASA, and other
-    sponsors.
+    physics-based and AI/ML-enabled simulation software for aerospace,
+    defense, and advanced manufacturing. Focus areas span coupled
+    thermomechanical FEA, residual stress and distortion modeling,
+    composite micromechanics, digital twin architecture, and LLM-assisted
+    engineering automation — in active collaboration with NIAR, NASA, and
+    other industry sponsors.
 
   social_networks:
     - network: GitHub
@@ -27,6 +30,60 @@ cv:
 
   sections:
 
+    Skills:
+      - name: Engineering Simulation & CAD
+        keywords: >
+          Abaqus, MSC NASTRAN/PATRAN, MSC Marc, ANSYS, STAR-CCM+,
+          HyperMesh, CATIA V5, SolidWorks
+
+      - name: Programming
+        keywords: Python, Fortran, C++, MATLAB
+
+      - name: ML / AI
+        keywords: >
+          Transformer-based language models, physics-informed surrogate
+          modeling, scientific ML, LLM-assisted FEA automation
+
+      - name: Software & HPC
+        keywords: >
+          Simulation automation pipelines, GUI tool development, HPC
+          cluster workflows, parameterized job management, Git-based
+          collaboration
+
+      - name: Methods
+        keywords: >
+          Thermomechanical FEA, residual stress and distortion,
+          composite damage (CDM, XFEM), RVE micromechanics, digital twin
+          architecture, multiscale modeling
+
+    Selected Projects:
+      - name: Digital Twin for Solid-State Additive Manufacturing
+        summary: >
+          Residual stress and distortion prediction workflow for
+          multi-layer AFSD deposition, validated against experimental
+          thermocouple measurements. Sequential thermal–mechanical
+          coupling architecture with Python-based automation and
+          HPC job management.
+
+      - name: SMARTCLAVE — Autoclave Digital Twin
+        summary: >
+          High-fidelity digital twin predicting process-induced local
+          defects and distortion of autoclave-cured composite parts
+          (AIAA SciTech 2026; NIAR / NASA program).
+
+      - name: ML Composite Property Surrogate
+        summary: >
+          Transformer-based language models combined with physics-based
+          simulation and RVE micromechanics for polymer and composite
+          property prediction and inverse design.
+
+      - name: End-to-End FEA Automation Pipeline
+        summary: >
+          Production-grade simulation automation managing all analysis
+          modes from CAD geometry through HPC execution and structured
+          post-processing — solver-agnostic, parameterized, and
+          reproducible.
+
     Experience:
       - company: Global Engineering and Materials, Inc.
         position: Research Engineer — CAE Expert (R&D)
@@ -35,13 +92,15 @@ cv:
         start_date: 2023-01
         end_date: present
         summary: >
-          Lead digital twin tool development with NIAR for end-to-end
-          design-to-production execution. Build ML-powered software for
-          polymer property prediction integrating transformer-based
-          language models with physics-based simulation. Develop digital
-          material generation toolkits for composites — predicting
-          ply-level elastic, strength, and thermal properties using RVE
-          micromechanics with explicit defect effects.
+          Lead CAE for digital twin and AI/ML-enabled engineering
+          programs. Built end-to-end digital twin software framework
+          with NIAR — integrating physics-based process simulation,
+          sensor data, and validation workflows. Architected ML-powered
+          software combining transformer language models with Abaqus-based
+          simulation for polymer property prediction and inverse design.
+          Delivered digital material generation toolkit predicting
+          ply-level elastic, strength, and thermal properties of
+          composites with explicit defect effects.
 
       - company: Global Engineering and Materials, Inc.
         position: Mechanical Engineer (R&D)
@@ -49,10 +108,11 @@ cv:
         start_date: 2020-01
         end_date: 2022-12
         summary: >
-          Delivered defect-aware composite simulations from manufacturing
-          distortion through in-service failure — integrating
-          global-to-local aircraft wing analysis, XFEM-based fatigue crack
-          growth, CDM progressive damage, and CFD-driven thermal effects.
+          Built defect-aware composite simulation framework for aerospace
+          structures — chaining global-to-local aircraft wing analysis,
+          XFEM-based fatigue crack growth, CDM progressive damage, and
+          CFD-driven thermal loading into a unified manufacturing-to-
+          in-service-failure pipeline.
 
       - company: Global Engineering and Materials, Inc.
         position: Associate Material Engineer (R&D)
@@ -62,9 +122,10 @@ cv:
         summary: >
           Characterized fabrication- and service-induced defects in
           composite materials. Built defect-informed geometry models and
-          physics-based material models, and developed structural-level
-          FE frameworks that explicitly incorporate process-induced
-          defects for realistic performance prediction.
+          physics-based material models. Developed structural-level FE
+          frameworks that explicitly incorporate process-induced defects
+          for realistic performance prediction and design assessment of
+          aerospace components.
 
       - company: Wichita State University
         position: Graduate Research Assistant
@@ -72,11 +133,13 @@ cv:
         start_date: 2014-01
         end_date: 2017-09
         summary: >
-          Stress/structural analysis and material characterization of
-          composite honeycomb cores: nonlinear FEA (MSC Marc, HyperMesh),
-          micro–macro multiscale modeling, custom FORTRAN subroutines for
-          anisotropic hyperelastic creep, and full-spectrum mechanical and
-          thermal testing of composite panels.
+          Performed nonlinear FEA (MSC Marc, HyperMesh) and micro–macro
+          multiscale modeling of composite honeycomb cores; developed
+          custom FORTRAN subroutines for anisotropic hyperelastic creep.
+          Executed full mechanical and thermal characterization
+          (fatigue, fracture, SBS, DSC, CTE, stress relaxation) of
+          composite panels and translated experimental outputs into
+          validated FE model inputs.
 
       - company: CEMILAC (DRDO)
         position: Engineering Intern — Design and Stress Analysis
@@ -84,9 +147,10 @@ cv:
         start_date: 2011-12
         end_date: 2012-04
         summary: >
-          Performed FEA on low-pressure turbine blades using ANSYS;
-          computed margin of safety and analyzed stress concentrations
-          under representative loading conditions.
+          Performed structural FEA on low-pressure turbine blades using
+          ANSYS. Computed margin of safety, evaluated design allowables,
+          and analyzed stress concentrations from notch geometries
+          (V-cut, U-cut) under representative aero loading conditions.
 
     Education:
       - institution: Wichita State University
@@ -108,19 +172,3 @@ cv:
         studyType: B.E.
         start_date: 2008
         end_date: 2012
-
-    Skills:
-      - name: Simulation
-        keywords: Abaqus, MSC NASTRAN/PATRAN, MSC Marc, ANSYS, STAR-CCM+, HyperMesh, HPC
-
-      - name: Programming
-        keywords: Python, Fortran, C++, MATLAB
-
-      - name: CAD
-        keywords: CATIA V5, SolidWorks
-
-      - name: Methods
-        keywords: >
-          Thermomechanical FEA, residual stress and distortion modeling,
-          RVE micromechanics, composite damage (CDM, XFEM), digital twin,
-          physics-informed ML

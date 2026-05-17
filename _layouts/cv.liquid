@@ -79,8 +79,14 @@ layout: default
               {% endif %}
               {% if cv.email %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ cv.email }}</td>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Work Email</b></td>
+                  <td class="p-1 pl-2 font-weight-light"><a href="mailto:{{ cv.email }}">{{ cv.email }}</a></td>
+                </tr>
+              {% endif %}
+              {% if cv.personal_email %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Personal Email</b></td>
+                  <td class="p-1 pl-2 font-weight-light"><a href="mailto:{{ cv.personal_email }}">{{ cv.personal_email }}</a></td>
                 </tr>
               {% endif %}
               {% if cv.phone %}

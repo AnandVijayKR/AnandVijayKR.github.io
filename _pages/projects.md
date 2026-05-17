@@ -21,7 +21,6 @@ toc:
 
       <li class="list-group-item">
         <h6 class="title font-weight-bold">Digital Twin Framework for Advanced Manufacturing</h6>
-        <p class="mb-1" style="font-size: 0.9rem; font-style: italic; opacity: 0.8;">Role: Lead CAE &nbsp;·&nbsp; Sponsor: NIAR</p>
         <p class="mb-2" style="font-size: 0.95rem; font-style: italic">Developing end-to-end digital twin infrastructure integrating physics-based process simulation, real-time sensor data, and validation workflows for advanced manufacturing programs.</p>
         <ul class="items">
           <li><span class="item">Architecting sequential thermal–mechanical coupling framework with Python-based automation.</span></li>
@@ -33,7 +32,6 @@ toc:
 
       <li class="list-group-item">
         <h6 class="title font-weight-bold">AI/ML-Enabled Materials & Process Prediction Platform</h6>
-        <p class="mb-1" style="font-size: 0.9rem; font-style: italic; opacity: 0.8;">Role: ML & Software Architect</p>
         <p class="mb-2" style="font-size: 0.95rem; font-style: italic">Building GUI-based software tools combining transformer-based language models with physics-based simulation for materials property prediction, inverse design, and LLM-assisted FEA automation.</p>
         <ul class="items">
           <li><span class="item">Architecting ML-powered software combining transformer language models with Abaqus-based simulation.</span></li>
@@ -55,7 +53,6 @@ toc:
 
       <li class="list-group-item">
         <h6 class="title font-weight-bold">Thermomechanical Process Simulation — Solid-State Manufacturing</h6>
-        <p class="mb-1" style="font-size: 0.9rem; font-style: italic; opacity: 0.8;">Role: CAE Simulation Lead</p>
         <p class="mb-2" style="font-size: 0.95rem; font-style: italic">High-fidelity coupled thermal–mechanical FEA of solid-state additive manufacturing processes — covering heat generation, deposition sequencing, residual stress, and experimental validation.</p>
         <ul class="items">
           <li><span class="item">Developed spatially-distributed heat generation model as a Fortran user subroutine.</span></li>
@@ -77,7 +74,6 @@ toc:
 
       <li class="list-group-item">
         <h6 class="title font-weight-bold">Multi-Physics Modeling of Quenching Processes — Aluminum & Airframe Components</h6>
-        <p class="mb-1" style="font-size: 0.9rem; font-style: italic; opacity: 0.8;">Role: Multi-Physics Modeler &nbsp;·&nbsp; Recognition: VFS Best Paper Awards (2024, 2025)</p>
         <p class="mb-2" style="font-size: 0.95rem; font-style: italic">Developing multi-physics digital twin and planning tools for industrial quenching — coupling thermal, metallurgical, and mechanical phenomena to predict distortion, residual stress, and microstructure evolution in aluminum and airframe structural components.</p>
         <ul class="items">
           <li><span class="item">Coupled thermal–metallurgical–mechanical FEA for aluminum and metallic structural components.</span></li>
@@ -99,7 +95,6 @@ toc:
 
       <li class="list-group-item">
         <h6 class="title font-weight-bold">Defect-Aware Composite Structural Analysis — Aerospace Structures</h6>
-        <p class="mb-1" style="font-size: 0.9rem; font-style: italic; opacity: 0.8;">Role: Composite Simulation Engineer</p>
         <p class="mb-2" style="font-size: 0.95rem; font-style: italic">Delivered global-to-local aircraft wing simulation frameworks incorporating manufacturing distortion, XFEM-based fatigue crack growth, CDM progressive damage, and CFD-driven thermal loading.</p>
         <ul class="items">
           <li><span class="item">Built global-to-local sub-modeling framework for aircraft wing structural assessment.</span></li>
@@ -121,7 +116,6 @@ toc:
 
       <li class="list-group-item">
         <h6 class="title font-weight-bold">Multiscale RVE Micromechanics & Digital Material Generation</h6>
-        <p class="mb-1" style="font-size: 0.9rem; font-style: italic; opacity: 0.8;">Role: Digital Material Modeler</p>
         <p class="mb-2" style="font-size: 0.95rem; font-style: italic">Developed digital material generation toolkits for composite laminates — predicting ply-level elastic, strength, and thermal properties using RVE-based micromechanics, with explicit treatment of manufacturing defects.</p>
         <ul class="items">
           <li><span class="item">Developed digital material generation toolkit predicting ply-level elastic, strength, and thermal properties.</span></li>
@@ -143,7 +137,6 @@ toc:
 
       <li class="list-group-item">
         <h6 class="title font-weight-bold">Composite Fabrication & Experimental Characterization</h6>
-        <p class="mb-1" style="font-size: 0.9rem; font-style: italic; opacity: 0.8;">Role: Graduate Research Assistant, Wichita State University</p>
         <p class="mb-2" style="font-size: 0.95rem; font-style: italic">Designed and executed experimental programs covering composite panel fabrication, mechanical and thermal testing, and microscopy-based defect characterization.</p>
         <ul class="items">
           <li><span class="item">Fabricated composite panels (layup, debulking, autoclave cure) under ASTM-compliant procedures.</span></li>
@@ -155,7 +148,6 @@ toc:
 
       <li class="list-group-item">
         <h6 class="title font-weight-bold">Nonlinear FEA & Multiscale Modeling — Honeycomb Core Structures</h6>
-        <p class="mb-1" style="font-size: 0.9rem; font-style: italic; opacity: 0.8;">Role: MS Thesis Research, Wichita State University</p>
         <p class="mb-2" style="font-size: 0.95rem; font-style: italic">Investigated forming and creep behavior of honeycomb sandwich structures using advanced nonlinear FEA and micro–macro multiscale modeling.</p>
         <ul class="items">
           <li><span class="item">Nonlinear FEA of honeycomb forming under spherical, cylindrical, and multi-radius bending (MSC Marc).</span></li>
